@@ -1,0 +1,13 @@
+{
+  "name": "Practice (judge test)",
+  "duration_minutes": 60,
+  "freeze_minutes": 0,
+  "penalty_minutes": 20,
+  "time_limit_source": "made up for the practice contest",
+  "memory_limit_mb": 1024,
+  "problems": [
+    {"letter": "A", "name": "Add Them Up",   "shortname": "addthemup",   "time_limit": 1, "checker": "exact", "color": "#e6194b"},
+    {"letter": "B", "name": "Average Speed", "shortname": "averagespeed", "time_limit": 1, "checker": "float", "color": "#3cb44b"}
+  ],
+  "statement_html": "<div class='box'><h3>A · Add Them Up</h3><p>Input: one line with n (1 &le; n &le; 10<sup>6</sup>), one line with n integers a<sub>i</sub> (|a<sub>i</sub>| &le; 10<sup>9</sup>). Output their sum.</p><h3>B · Average Speed</h3><p>Input: one line with n (1 &le; n &le; 10<sup>5</sup>), one line with n integers v<sub>i</sub> (0 &le; v<sub>i</sub> &le; 10<sup>6</sup>). Output their average, with absolute or relative error at most 10<sup>-7</sup>.</p><p class='muted'>Ready-made submissions for every verdict are in <code>practice/examples/</code>.</p></div>"
+}

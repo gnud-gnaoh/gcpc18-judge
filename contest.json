@@ -1,0 +1,25 @@
+{
+  "name": "GCPC 2018 (virtual)",
+  "duration_minutes": 300,
+  "freeze_minutes": 60,
+  "penalty_minutes": 20,
+  "time_limit_source": "open.kattis.com CPU time limits, except E, F, M tightened to 2/1/3 s so the jury's too-slow solutions fail (the original DOMjudge limits are not published)",
+  "memory_limit_mb": 1024,
+  "statement_pdf": "downloads/problemset_2018.pdf",
+  "solutions_pdf": "downloads/solution_2018.pdf",
+  "problems": [
+    {"letter": "A", "name": "Attack on Alpha-Zet",     "shortname": "attackonalphazet",   "time_limit": 10, "checker": "exact", "color": "#e6194b"},
+    {"letter": "B", "name": "Battle Royale",           "shortname": "battleroyale",       "time_limit": 1,  "checker": "float", "color": "#3cb44b"},
+    {"letter": "C", "name": "Coolest Ski Route",       "shortname": "coolestskiroute",    "time_limit": 4,  "checker": "exact", "color": "#ffe119"},
+    {"letter": "D", "name": "Down the Pyramid",        "shortname": "downthepyramid",     "time_limit": 4,  "checker": "exact", "color": "#4363d8"},
+    {"letter": "E", "name": "Expired License",         "shortname": "expiredlicense",     "time_limit": 2,  "checker": "exact", "color": "#f58231"},
+    {"letter": "F", "name": "Fighting Monsters",       "shortname": "fightingmonsters",   "time_limit": 1,  "checker": "fightingmonsters", "color": "#911eb4"},
+    {"letter": "G", "name": "GPS",                     "shortname": "gps",                "time_limit": 5,  "checker": "float", "color": "#42d4f4"},
+    {"letter": "H", "name": "Hyper Illuminati",        "shortname": "hyperilluminati",    "time_limit": 2,  "checker": "hyperilluminati", "color": "#f032e6"},
+    {"letter": "I", "name": "It's Time for a Montage", "shortname": "itstimeforamontage", "time_limit": 1,  "checker": "exact", "color": "#bfef45"},
+    {"letter": "J", "name": "Jigsaw Puzzle",           "shortname": "jigsaw",             "time_limit": 1,  "checker": "jigsaw", "color": "#fabed4"},
+    {"letter": "K", "name": "Kitchen Cable Chaos",     "shortname": "kitchencablechaos",  "time_limit": 1,  "checker": "float", "color": "#469990"},
+    {"letter": "L", "name": "Logic Puzzle",            "shortname": "logicpuzzle",        "time_limit": 2,  "checker": "logicpuzzle", "color": "#dcbeff"},
+    {"letter": "M", "name": "Mountaineers",            "shortname": "mountaineers",       "time_limit": 3,  "checker": "exact", "color": "#9a6324"}
+  ]
+}

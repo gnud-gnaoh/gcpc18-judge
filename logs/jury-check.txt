@@ -1,0 +1,149 @@
+ok A accepted             epi.cpp                                    AC   cpu  0.84s  [16s]
+ok A accepted             gregor.cpp                                 AC   cpu  0.57s  [9s]
+ok A accepted             mazerunner_gregors.cpp                     AC   cpu  0.20s  [3s]
+ok A accepted             paul.cpp                                   AC   cpu  0.25s  [4s]
+ok A time_limit_exceeded  mazerunner_martin_tle.cpp                  TLE  cpu 11.00s  [12s]  secret/10_max_tjunctions: 
+ok A time_limit_exceeded  mazerunner_martin_tle2.cpp                 TLE  cpu 11.01s  [12s]  secret/15_max_size_long_path: 
+ok A time_limit_exceeded  paul_bfs.cpp                               TLE  cpu 11.00s  [13s]  secret/10_max_tjunctions: 
+ok A time_limit_exceeded  paul_dfs.cpp                               TLE  cpu 11.00s  [13s]  secret/10_max_tjunctions: 
+ok A wrong_answer         paul_int.cpp                               WA   cpu  0.16s  [2s]  secret/15_max_size_long_path: token 1: expected '3319236271', got '-975731025'
+-- B accepted             alice.py                                   skipped (Python 2 source)
+ok B accepted             battleroyale_gregors.cpp                   AC   cpu  0.00s  [0s]
+ok B accepted             battleroyale_martin.cpp                    AC   cpu  0.00s  [1s]
+ok B accepted             gregor.cpp                                 AC   cpu  0.00s  [1s]
+ok B accepted             paul.cpp                                   AC   cpu  0.00s  [2s]
+ok B wrong_answer         battleroyale_martin_float.cpp              WA   cpu  0.01s  [1s]  secret/huge_red: token 1: expected 3138.45106160420573360170, got 3138.424316 (abs err 0.0267, rel err 8.52e-06)
+ok B wrong_answer         paul_alice_port_int.cpp                    WA   cpu  0.00s  [1s]  secret/l2_out: token 1: expected 30.0834425089, got 30.07576941711844398242 (abs err 0.00767, rel err 0.000255)
+ok B wrong_answer         paul_alice_port_noprecision.cpp            WA   cpu  0.00s  [1s]  sample/1: token 1: expected 10.8112187742, got 10.8112 (abs err 1.88e-05, rel err 1.74e-06)
+ok C accepted             gregor.cpp                                 AC   cpu  0.00s  [1s]
+-- C accepted             heliskiing-moritz.py                       skipped (Python 2 source)
+ok C accepted             heliskiing_gregors.cpp                     AC   cpu  0.00s  [0s]
+ok C accepted             heliskiing_martin_fw.cpp                   AC   cpu  0.50s  [3s]
+ok C accepted             paul-dfs.cpp                               AC   cpu  0.00s  [2s]
+ok C accepted             paul.cpp                                   AC   cpu  0.00s  [2s]
+ok C time_limit_exceeded  paul_backtrack.cpp                         TLE  cpu  5.00s  [7s]  secret/backline_large1: 
+ok D accepted             gregor.cpp                                 AC   cpu  0.15s  [8s]
+ok D accepted             paul.cpp                                   AC   cpu  0.18s  [8s]
+-- D accepted             pyramidbase-moritz.py                      skipped (Python 2 source)
+ok D accepted             pyramidbase_gregors.cpp                    AC   cpu  0.16s  [7s]
+ok D accepted             pyramidbase_martin.cpp                     AC   cpu  0.04s  [2s]
+ok D accepted             pyramidbase_martin_overflow.cpp            AC   cpu  0.04s  [2s]
+ok D accepted             rgr.cpp                                    AC   cpu  0.05s  [4s]
+ok D accepted             rgr_change_queue_shuffled.cpp              AC   cpu  0.28s  [8s]
+ok D run_time_error       epi_simulate_binary_search.cpp             RTE  cpu  1.43s  [3s]  secret/10_int_overflow: killed by signal SIGABRT
+ok D time_limit_exceeded  epi_simulate.cpp                           TLE  cpu  5.00s  [7s]  secret/13_bad_end: 
+ok D time_limit_exceeded  rgr_change_queue.cpp                       TLE  cpu  4.08s  [6s]  secret/35_high_n_low_diff: 
+ok D time_limit_exceeded  rgr_change_queue_sorted.cpp                TLE  cpu  5.01s  [9s]  secret/35_high_n_low_diff: 
+ok D wrong_answer         epi_simulate_binary_search_capped.cpp      WA   cpu  2.27s  [4s]  secret/20_one_solution: token 1: expected '1', got '0'
+ok D wrong_answer         paul_int_overflow.cpp                      WA   cpu  0.10s  [2s]  secret/10_int_overflow: token 1: expected '0', got '14337'
+ok D wrong_answer         rgr_WA.cpp                                 WA   cpu  0.00s  [2s]  sample/2: token 1: expected '0', got '-889'
+-- E accepted             aspectratio_decimal_moritz.py              skipped (Python 2 source)
+ok E accepted             aspectratio_rounding_gregors.cpp           AC   cpu  0.04s  [1s]
+-- E accepted             aspectratio_stefank.py                     skipped (Python 2 source)
+ok E accepted             gregor.cpp                                 AC   cpu  0.13s  [2s]
+ok E accepted             paul.cpp                                   AC   cpu  0.15s  [2s]
+ok E accepted             paul_naive_factorization.cpp               AC   cpu  0.15s  [2s]
+ok E time_limit_exceeded  aspectratio_martin_linear.cpp              TLE  cpu  3.00s  [4s]  secret/rand: 
+ok E wrong_answer         aspectratio_no_rounding_gregors.cpp        WA   cpu  0.00s  [0s]  sample/1: token 4: expected '2', got 'impossible'
+-- E wrong_answer         aspectratio_precision_issues_moritz.py     skipped (Python 2 source)
+-- F accepted             fightingMonsters.py                        skipped (Python 2 source)
+ok F accepted             fightingmonsters_gregors.cpp               AC   cpu  0.09s  [1s]
+ok F accepted             fightingmonsters_martin_binarysearch.cpp   AC   cpu  0.01s  [1s]
+ok F accepted             gregor.cpp                                 AC   cpu  0.02s  [2s]
+ok F accepted             paul.cpp                                   AC   cpu  0.02s  [1s]
+-- F time_limit_exceeded  fightingMonsters_simulateEverything.py     skipped (Python 2 source)
+ok F time_limit_exceeded  fightingmonsters_martin_tle.cpp            TLE  cpu  1.64s  [2s]  secret/20_samefib: 
+ok F wrong_answer         alice_random.cpp                           WA   cpu  0.77s  [3s]  secret/11: team says impossible, but a solution exists
+ok F wrong_answer         checkertest_preceedingtext.cpp             WA   cpu  0.00s  [1s]  sample/1: answer exists according to team, jury says impossible
+ok F wrong_answer         checkertest_trailingtext.cpp               WA   cpu  0.00s  [2s]  sample/1: answer exists according to team, jury says impossible
+ok F wrong_answer         checkertest_trailingtext2.cpp              WA   cpu  0.00s  [2s]  sample/2: expected exactly two integers
+-- F wrong_answer         fightingMonsters_noOnes.py                 skipped (Python 2 source)
+ok F wrong_answer         gregor.cpp                                 WA   cpu  0.00s  [2s]  sample/3: team says impossible, but a solution exists
+ok F wrong_answer         gregors_no_double_ones.cpp                 WA   cpu  0.00s  [0s]  sample/2: team says impossible, but a solution exists
+ok F wrong_answer         gregors_static_impossible.cpp              WA   cpu  0.00s  [0s]  sample/2: team says impossible, but a solution exists
+ok F wrong_answer         paul_swapped.cpp                           WA   cpu  0.00s  [2s]  sample/3: winner has power 8, not 1
+ok G accepted             gregor.cpp                                 AC   cpu  0.02s  [2s]
+ok G accepted             paul.cpp                                   AC   cpu  0.02s  [2s]
+ok G wrong_answer         gregor.cpp                                 WA   cpu  0.02s  [2s]  secret/17_big_rand_min_min2: token 1: expected a number, got 'no'
+ok G wrong_answer         paul.cpp                                   WA   cpu  0.00s  [1s]  secret/01: token 1: expected 1.94320749709634443825, got 1.93876530157146564903 (abs err 0.00444, rel err 0.00229)
+ok H accepted             epi.cpp                                    AC   cpu  0.00s  [1s]
+ok H accepted             gregor.cpp                                 AC   cpu  0.00s  [2s]
+-- H accepted             hyperilluminati-moritz.py                  skipped (Python 2 source)
+ok H accepted             hyperilluminati_gregors.cpp                AC   cpu  0.00s  [1s]
+ok H accepted             hyperilluminati_martin.cpp                 AC   cpu  0.15s  [3s]
+ok H accepted             paul-inverse.cpp                           AC   cpu  0.00s  [1s]
+ok H accepted             paul-ll.cpp                                AC   cpu  0.00s  [1s]
+ok H accepted             paul.cpp                                   AC   cpu  0.00s  [1s]
+ok H time_limit_exceeded  epi_naive.cpp                              TLE  cpu  3.00s  [4s]  sample/4: 
+ok H time_limit_exceeded  paul-ll-pow.cpp                            TLE  cpu  3.00s  [5s]  sample/4: 
+-- H wrong_answer         hyperilluminati-no-one-moritz.py           skipped (Python 2 source)
+ok H wrong_answer         hyperilluminati_gregors_pow.cpp            WA   cpu  0.01s  [0s]  sample/4: team says impossible, but a solution exists
+ok H wrong_answer         hyperilluminati_martin_lowMaxSteps.cpp     WA   cpu  0.01s  [1s]  secret/03_max_possible: team says impossible, but a solution exists
+ok H wrong_answer         paul-double-pow.cpp                        WA   cpu  0.01s  [2s]  sample/4: team says impossible, but a solution exists
+ok H wrong_answer         paul-double.cpp                            WA   cpu  0.00s  [2s]  sample/4: team says impossible, but a solution exists
+ok H wrong_answer         paul-float.cpp                             WA   cpu  0.00s  [2s]  sample/4: team says impossible, but a solution exists
+ok H wrong_answer         paul-int.cpp                               WA   cpu  1.78s  [3s]  sample/4: invalid n=3, s=-2096519947
+ok I accepted             gregor.cpp                                 AC   cpu  0.00s  [2s]
+ok I accepted             paul.cpp                                   AC   cpu  0.00s  [1s]
+ok I accepted             paul_naive.cpp                             AC   cpu  0.00s  [2s]
+ok I accepted             powerlevels_gregors.cpp                    AC   cpu  0.00s  [1s]
+ok I accepted             powerlevels_gregors_binarysearch.cpp       AC   cpu  0.00s  [1s]
+ok I accepted             powerlevels_martin.cpp                     AC   cpu  0.00s  [1s]
+ok I accepted             rgr.cpp                                    AC   cpu  0.00s  [2s]
+-- I accepted             rgr.py                                     skipped (Python 2 source)
+ok I accepted             rgr_naive.cpp                              AC   cpu  0.00s  [2s]
+ok I accepted             rgr_verynaive.cpp                          AC   cpu  0.01s  [2s]
+-- I wrong_answer         powerlevels-moritz.py                      skipped (Python 2 source)
+ok I wrong_answer         rgr_WA.cpp                                 WA   cpu  0.00s  [2s]  sample/3: token 1: expected '3', got '4'
+-- J accepted             baer.py                                    skipped (Python 2 source)
+ok J accepted             jigsaw_martin.cpp                          AC   cpu  0.10s  [8s]
+ok J accepted             paul-holes.cpp                             AC   cpu  0.18s  [11s]
+ok J accepted             paul-row-by-row.cpp                        AC   cpu  0.17s  [8s]
+ok J accepted             paul.cpp                                   AC   cpu  0.17s  [9s]
+-- J run_time_error       baer-out-of-bounds.py                      skipped (Python 2 source)
+~  J run_time_error       gregor.cpp                                 TLE  cpu  1.54s  [3s]  secret/42-valid-500-600: 
+ok J run_time_error       paul-bounding-box.cpp                      RTE  cpu  0.49s  [8s]  secret/50-zig-zag: killed by signal SIGABRT
+ok J run_time_error       paul-overflow.cpp                          RTE  cpu  0.73s  [11s]  secret/51-overflow: killed by signal SIGABRT
+ok J time_limit_exceeded  gregor.cpp                                 TLE  cpu  1.73s  [4s]  secret/42-valid-500-600: 
+ok J wrong_answer         gregor.cpp                                 WA   cpu  0.00s  [1s]  secret/11-mismatched-edge: answer exists according to team, jury says impossible
+-- J wrong_answer         jigsaw-moritz.py                           skipped (Python 2 source)
+ok J wrong_answer         jigsaw_gregors.cpp                         WA   cpu  0.46s  [9s]  secret/fuzzing/038: answer exists according to team, jury says impossible
+XX J wrong_answer         jigsaw_martin_internal0.cpp                AC   cpu  0.09s  [7s]
+ok J wrong_answer         jigsaw_martin_no_bot.cpp                   WA   cpu  0.00s  [1s]  secret/08-invalid-bottom: answer exists according to team, jury says impossible
+ok J wrong_answer         paul-check-edges-1.cpp                     WA   cpu  0.00s  [1s]  secret/15-ring: answer exists according to team, jury says impossible
+ok J wrong_answer         paul-check-edges-2.cpp                     WA   cpu  0.00s  [1s]  secret/04-zero-edge-inside: answer exists according to team, jury says impossible
+ok J wrong_answer         paul-check-edges-3.cpp                     WA   cpu  0.00s  [1s]  secret/11-mismatched-edge: answer exists according to team, jury says impossible
+-- K accepted             baer.py                                    skipped (Python 2 source)
+-- K accepted             baer_stretch.py                            skipped (Python 2 source)
+ok K accepted             gregor.cpp                                 AC   cpu  0.00s  [1s]
+ok K accepted             paul.cpp                                   AC   cpu  0.01s  [1s]
+ok K accepted             staircases_gregors.cpp                     AC   cpu  0.00s  [1s]
+ok K time_limit_exceeded  wireup_martin_bf.cpp                       TLE  cpu  2.00s  [3s]  secret/11-shorts: 
+-- K wrong_answer         baer2.py                                   skipped (Python 2 source)
+ok K wrong_answer         baer_random.cpp                            WA   cpu  0.77s  [7s]  secret/15-exactlyOneSolution: token 1: expected 5, got 1.33333333 (abs err 3.67, rel err 0.733)
+-- K wrong_answer         baer_sumOfSmallest.py                      skipped (Python 2 source)
+ok K wrong_answer         wireup_martin_greedy.cpp                   WA   cpu  0.00s  [1s]  secret/kill-greedy-3: token 1: expected a number, got 'impossible'
+ok L accepted             gregor.cpp                                 AC   cpu  0.00s  [2s]
+-- L accepted             mosaic-moritz.py                           skipped (Python 2 source)
+ok L accepted             mosaic_gregors.cpp                         AC   cpu  0.00s  [1s]
+ok L accepted             mosaic_martin.cpp                          AC   cpu  0.01s  [1s]
+ok L accepted             paul.cpp                                   AC   cpu  0.00s  [2s]
+ok L accepted             rgr.cpp                                    AC   cpu  0.00s  [2s]
+ok L wrong_answer         gregor.cpp                                 WA   cpu  0.00s  [1s]  secret/50-check-last-clue: answer exists according to team, jury says impossible
+-- L wrong_answer         mosaic-moritz-ignore-too-few-clues.py      skipped (Python 2 source)
+ok L wrong_answer         mosaic_martin_placeoutside.cpp             WA   cpu  0.00s  [1s]  secret/21-random-69x2-one-bad-clue: answer exists according to team, jury says impossible
+ok M accepted             alice.cpp                                  AC   cpu  0.32s  [3s]
+ok M accepted             gregor.cpp                                 AC   cpu  0.35s  [4s]
+XX M accepted             mountaineers_gregors.cpp                   CE   cpu  0.00s  [0s]        |                               cells_y
+ok M accepted             mountaineers_martin.cpp                    AC   cpu  0.20s  [2s]
+ok M accepted             paul.cpp                                   AC   cpu  0.40s  [4s]
+ok M accepted             paul_binary_search.cpp                     AC   cpu  0.51s  [5s]
+ok M run_time_error       paul_naive_merge.cpp                       RTE  cpu  2.56s  [4s]  secret/random0: killed by signal SIGABRT
+~  M run_time_error       paul_random_merge.cpp                      TLE  cpu  3.58s  [5s]  secret/random0: 
+ok M time_limit_exceeded  mountaineers_martin_uf_linear_q.cpp        TLE  cpu  4.00s  [5s]  secret/random0: 
+ok M time_limit_exceeded  paul_naive_merge.cpp                       TLE  cpu  4.00s  [6s]  secret/random0: 
+ok M time_limit_exceeded  paul_random_merge.cpp                      TLE  cpu  4.00s  [5s]  secret/random0: 
+
+123 jury submissions, 2 with the wrong accept/reject outcome
+    J wrong_answer jigsaw_martin_internal0.cpp WA AC
+    M accepted mountaineers_gregors.cpp AC CE

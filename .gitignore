@@ -1,0 +1,11 @@
+__pycache__/
+# your contests: start time and submissions
+state/
+state-backup-*/
+practice/state/
+practice/state-backup-*/
+# created by setup.py (official archives are downloaded from https://2018.gcpc.nwerc.eu/)
+downloads/
+problems/
+data/
+practice/problems/
